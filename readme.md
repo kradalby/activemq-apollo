@@ -1,5 +1,11 @@
 # The Apollo Project
 
+# IT2901
+
+This is a fork of the Apollo Project.
+
+The fork is a part of the IT2901 course at [NTNU](http://ntnu.edu).
+
 ## Synopsis
 
 [ActiveMQ Apollo](http://activemq.apache.org/apollo/) is a faster, more
