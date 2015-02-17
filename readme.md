@@ -4,7 +4,7 @@
 
 This is a fork of the Apollo Project.
 
-The fork is a part of the IT2901 course at [NTNU](http://ntnu.edu).
+The fork is a part of the IT2901 course at [NTNU](http://ntnu.edu). 
 
 ## Synopsis
 
