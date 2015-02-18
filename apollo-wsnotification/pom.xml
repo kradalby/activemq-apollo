@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>apollo-scala</artifactId>
+        <groupId>org.apache.activemq</groupId>
+        <version>99-trunk-SNAPSHOT</version>
+        <relativePath>../apollo-scala</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>apollo-wsnotification</artifactId>
+    <packaging>jar</packaging>
+
+    <properties>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>wsnu</id>
+            <name>wsnu</name>
+            <url>http://ws-nu.net/repo</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.ntnunotif.wsnu</groupId>
+            <artifactId>wsnu-base</artifactId>
+            <version>0.4-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ntnunotif.wsnu</groupId>
+            <artifactId>wsnu-services</artifactId>
+            <version>0.4-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>apollo-broker</artifactId>
+            <version>99-trunk-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+</project>
