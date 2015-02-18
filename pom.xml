@@ -191,6 +191,7 @@
     <module>apollo-distro</module>
     <module>apollo-war</module>
     <module>apollo-wsnotification</module>
+      <module>apollo-zeromq</module>
   </modules>
 
   <scm>
