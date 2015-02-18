@@ -190,6 +190,7 @@
     <module>apollo-jmx</module>
     <module>apollo-distro</module>
     <module>apollo-war</module>
+    <module>apollo-wsnotification</module>
   </modules>
 
   <scm>
