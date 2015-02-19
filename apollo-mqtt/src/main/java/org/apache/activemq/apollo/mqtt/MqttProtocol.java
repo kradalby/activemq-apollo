@@ -42,6 +42,7 @@ public class MqttProtocol extends MqttProtocolCodecFactory implements Protocol {
         destination_parser.regex_wildcard_end_$eq(null);
         destination_parser.regex_wildcard_end_$eq(null);
         destination_parser.part_pattern_$eq(null);
+
     }
 
 

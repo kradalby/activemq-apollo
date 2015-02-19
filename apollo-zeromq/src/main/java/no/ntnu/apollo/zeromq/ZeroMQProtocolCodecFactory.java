@@ -7,9 +7,12 @@ import org.fusesource.hawtdispatch.transport.ProtocolCodec;
 
 public class ZeroMQProtocolCodecFactory implements ProtocolCodecFactory.Provider {
 
+    static final String id = "zeromq";
+
+
     @Override
     public String id() {
-        return null;
+        return id;
     }
 
     @Override
