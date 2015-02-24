@@ -32,7 +32,7 @@ public class WsnProtocolCodecFactory implements ProtocolCodecFactory.Provider {
 
     @Override
     public int maxIdentificaionLength() {
-        return 0;
+        return 12;
     }
 
     @Override
