@@ -3,6 +3,8 @@ package no.ntnu.apollo.wsnotification;
 import org.apache.activemq.apollo.broker.*;
 import org.apache.activemq.apollo.broker.protocol.AbstractProtocolHandler;
 import org.apache.activemq.apollo.broker.security.SecurityContext;
+import org.apache.activemq.apollo.dto.AcceptingConnectorDTO;
+import org.apache.activemq.apollo.dto.ProtocolDTO;
 import org.apache.activemq.apollo.util.Log$;
 import org.apache.activemq.apollo.util.Scala2Java;
 
